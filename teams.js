@@ -17,4 +17,14 @@ var sites = [{
     "name1": "Theo",
     "name2": "Tavish",
     "folder": "theo and tavish"
-}];
+},{
+    "name1": "Rosalie",
+    "name2": "Sophia",
+    "folder": "rosalie-sophia"
+},{
+    "name1": "Bram",
+    "name2": "Ahmed",
+    "folder": "bram and ahmed",
+    "index": "team.html"
+}
+];
