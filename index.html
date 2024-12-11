@@ -33,7 +33,7 @@
                 margin: 2px;
             }
             iframe {
-                zoom: 0.2; -moz-transform: scale(0.75); -moz-transform-origin: 0 0;
+                zoom: 0.35; -moz-transform: scale(0.75); -moz-transform-origin: 0 0;
             }
             h1 {
                 display: flex;
@@ -70,10 +70,13 @@ function shuffle(array) {
 $(window).on('load', function() {
     shuffle(sites);
     for (let i = 0; i < sites.length; i++) {
-        let title = sites[i]["name1"] + " & " + sites[i]["name2"];
-        var random_boolean = Math.random() < 0.5;
-        if (random_boolean) {
-            title = sites[i]["name2"] + " & " + sites[i]["name1"];
+        let title = sites[i]["name1"]
+        if ("name2" in sites[i]) {
+            title += " & " + sites[i]["name2"];
+            var random_boolean = Math.random() < 0.5;
+            if (random_boolean) {
+                title = sites[i]["name2"] + " & " + sites[i]["name1"];
+            }
         }
         let folder = sites[i]["folder"];
         let index = "index.html";
