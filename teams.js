@@ -39,7 +39,8 @@ var sites = [{
 },{
     "name1": "Jack",
     "name2": "Rupert",
-    "folder": "jr"
+    "folder": "jr",
+    "index": "team.html"
 },{
     "name1": "Daniel",
     "name2": "Catherine",
