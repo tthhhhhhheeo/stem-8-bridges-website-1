@@ -55,7 +55,8 @@ var sites = [{
 },{
     "name1": "Fox",
     "name2": "Jacob",
-    "folder": "fox-jacob"
+    "folder": "fox-jacob",
+    "index": "teams.html"
 },{
     "name1": "Levi",
     "name2": "Taiyou",
