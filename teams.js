@@ -31,7 +31,7 @@ var sites = [{
 {
     "name1": "Fraser",
     "name2": "Ryan",
-    "folder": "fraser-ryan"
+    "folder": "ryan-fraser"
 },{
     "name1": "Gavin",
     "name2": "Rain",
@@ -39,22 +39,24 @@ var sites = [{
 },{
     "name1": "Jack",
     "name2": "Rupert",
-    "folder": "jack-rupert"
+    "folder": "jr",
+    "index": "team.html"
 },{
     "name1": "Daniel",
     "name2": "Catherine",
     "folder": "Daniel, Catherine"
 },{
     "name1": "Mackenzie",
-    "folder": "mackenzie"
+    "folder": "mack"
 },{
     "name1": "Breeze",
     "name2": "Rosie",
-    "folder": "breeze-rosie"
+    "folder": "Rosie-breeze"
 },{
     "name1": "Fox",
     "name2": "Jacob",
-    "folder": "fox-jacob"
+    "folder": "fox-jacob",
+    "index": "teams.html"
 },{
     "name1": "Levi",
     "name2": "Taiyou",
