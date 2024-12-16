@@ -40,7 +40,7 @@ var sites = [{
     "name1": "Jack",
     "name2": "Rupert",
     "folder": "jr",
-    "index": "team.html"
+    "index": "home.html"
 },{
     "name1": "Daniel",
     "name2": "Catherine",
