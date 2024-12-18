@@ -3,20 +3,19 @@
 <head>
 <title>Ryan and Fraser's Design Journal</title>
     <style>
+            /*
     ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-li {
-  float: left;
-}
+/*
 
 li a {
   display: block;
@@ -26,27 +25,89 @@ li a {
   text-decoration: none;
 }
 
+*/
 li a:hover {
   background-color: #111;
       }
 
+body {
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+} 
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #111;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
     </style>
 </head>
 <body>
   
 <ul>
   <li><a class="index.html">Home</a></li>
-<li><a href="bridge-1.html">Bridge 1</a></li>
-  <li><a href="bridge-2.html">Bridge 2</a></li>
-  <li><a href="bridge-3.html">Bridge 3</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Bridges</a>
+    <div class="dropdown-content">
+    <a href="bridge-1.html">Bridge 1</a>
+    <a href="bridge-2.html">Bridge 2</a>
+    <a href="bridge-3.html">Bridge 3</a>
+    </div>
+  </li>
   <li><a href="teampage.html">Team Page</a></li>
+  
 </ul>
 <h1 style = "background-color: azure; outline-style: double;">Bridge Design Journal</h1>
 
 <h3>This is our bridge design journal. For our project, we were given a limit of:</h3>
-<h4>- 250 grams of spaghetti</h4> <h4> - 5 hot glue sticks</h4> 
+<h4>- 250 grams of spaghetti</h4> <h4> - 5 hot glue sticks</h4> <h4>- maximum width- 10 cm</h4><h4>- maximum height- 20 cm</h4><h4>- maximum length- 60 cm</h4>
 <h3>The objective of this project is to make   a bridge that holds as much weight as possible.</h3> 
 <img width = 350 height = 200 src="Screenshot%202024-12-09%20110050.png">
 </body>
 </html>
+
+
 
